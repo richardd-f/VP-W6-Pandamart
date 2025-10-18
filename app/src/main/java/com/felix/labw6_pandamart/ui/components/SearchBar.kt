@@ -31,9 +31,8 @@ fun SearchBar(
         placeholder = { Text(placeholder) },
         trailingIcon = trailingIcon ,
         leadingIcon = leadingIcon,
-        modifier = Modifier
+        modifier = modifier
             .fillMaxWidth()
-            .padding(16.dp)
             .clip(RoundedCornerShape(50)),
         colors = TextFieldDefaults.colors(
             focusedIndicatorColor = Color.Transparent,
